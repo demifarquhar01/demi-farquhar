@@ -73,7 +73,7 @@ public class CalculatorApplication {
                     break;
                 }
             if (validOperation) {
-               System.out.println("The final result is:" + result);
+               System.out.println("The final result is : " + result);
         //Display the final result
 		System.out.println(num1 + " " + choice + " " + num2 + " = " + result);
             }
