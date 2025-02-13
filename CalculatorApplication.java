@@ -63,10 +63,8 @@ public class CalculatorApplication {
                     result = num1 * num2; 
                     break;
 
-                case '/':
-                    if (num2 != 0) { // division by zero 
-
-                    //division operation
+                case '/': //Division operation
+                    if (num2 != 0) { // Division by zero 
                         result = num1 / num2; 
                     } else {
                         System.out.println("Error!!!! Division by zero is invaild");
@@ -75,7 +73,7 @@ public class CalculatorApplication {
                     break;
                 }
             if (validOperation) {
-               System.out.println("The final result is  " + result);
+               System.out.println("The final result is:" + result);
         //Display the final result
 		System.out.println(num1 + " " + choice + " " + num2 + " = " + result);
             }
